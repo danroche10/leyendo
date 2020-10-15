@@ -9,7 +9,7 @@ const CreateNewPost = props => {
       <Container>
         <section className="create-post">
           <form onSubmit={props.savePost}>
-            <h1>Create New Post</h1>
+            <h1 className="title">Create New Post</h1>
             <textarea
               type="text"
               onChange={props.savePostTitleToState}
