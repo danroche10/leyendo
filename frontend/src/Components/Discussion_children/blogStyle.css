@@ -1,0 +1,30 @@
+.post-container {
+  background-color: rgb(229, 231, 231);
+  border: solid;
+  border-width: thin;
+  margin: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+}
+
+.post-Name {
+  font-family: Georgia;
+  font-weight: bold;
+}
+
+.post-Name2 {
+  font-family: Georgia;
+  font-weight: bold;
+}
+
+.post-Essay {
+  font-style: italic;
+}
+
+.create-post {
+  font-family: Georgia;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+}
