@@ -1,5 +1,5 @@
-# leyendo_v2
-Production version: leyendo-v2.herokuapp.com
+# leyendo
+Production version: leyendo.herokuapp.com
 
 Some notes on the project:
 
