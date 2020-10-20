@@ -2,16 +2,16 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import { Row, Container } from "react-bootstrap";
 import axios from "axios";
-import DataContext from "./Contexts/DataContext";
-import Data2Context from "./Contexts/Data2Context";
-import { TopicContext } from "./Contexts/TopicContext";
-import { AuthorContext } from "./Contexts/AuthorContext";
-import { EssayContext } from "./Contexts/EssayContext";
-import TopicList from "./TopicList";
-import AuthorList from "./AuthorList";
-import EssayList from "./EssayList";
-import Discussion from "./Discussion";
-import isCreateNewPostContext from "./Contexts/isCreateNewPostContext";
+import DataContext from "./Components/Contexts/DataContext";
+import Data2Context from "./Components/Contexts/Data2Context";
+import { TopicContext } from "./Components/Contexts/TopicContext";
+import { AuthorContext } from "./Components/Contexts/AuthorContext";
+import { EssayContext } from "./Components/Contexts/EssayContext";
+import TopicList from "./Components/TopicList";
+import AuthorList from "./Components/AuthorList";
+import EssayList from "./Components/EssayList";
+import Discussion from "./Components/Discussion";
+import isCreateNewPostContext from "./Components/Contexts/isCreateNewPostContext";
 
 //App has four children: TopicList, AuthorList, EssayList and Discussion
 

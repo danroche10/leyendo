@@ -1,4 +1,4 @@
-import TopicList from "./Components/App";
+import TopicList from "./App";
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";

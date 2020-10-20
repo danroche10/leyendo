@@ -3,6 +3,7 @@ import DataContext from "./Contexts/DataContext";
 import { TopicContext } from "./Contexts/TopicContext";
 import isCreateNewPostContext from "./Contexts/isCreateNewPostContext";
 import { Row, Col } from "react-bootstrap";
+import { AuthorContext } from "./Contexts/AuthorContext";
 
 const TopicList = () => {
   const { data } = useContext(DataContext);
@@ -10,6 +11,7 @@ const TopicList = () => {
   const [isCreateNewPost, setIsCreateNewPost] = useContext(
     isCreateNewPostContext
   );
+  const [author, setAuthor] = useContext(AuthorContext);
 
   const updateTopic = e => {
     e.preventDefault();
@@ -18,6 +20,7 @@ const TopicList = () => {
   const handleOnClick = name => {
     setTopic(name);
     setIsCreateNewPost(false);
+    setAuthor(null);
   };
   return (
     <Col>
