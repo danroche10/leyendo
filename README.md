@@ -3,7 +3,7 @@ Production version: leyendo.herokuapp.com
 
 Some notes on the project:
 
-- This is a MERN stack application that enables users to find their favourite essays through searching by topic and author. Users are then able to comment their thoughts on each essay and interact with other users.
+- This is a MERN stack application that enables users to find and view their favourite essays through searching by topic and author. They can then comment their thoughts on each essay and interact with other users.
 
 - The app is fully responsive on mobile.
 
